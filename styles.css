@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente de la página */
+    background-color: #aae6b7; /* Color de fondo */
+    margin: 0; /* Sin márgenes */
+    padding: 20px; /* Espacio interno */
+}
+
+/* Estilo del encabezado */
+h1 {
+    text-align: center; /* Centra el texto del encabezado */
+}
+
+/* Estilo del formulario para agregar tareas */
+#task-form {
+    display: flex; /* Usa flexbox para alinear elementos en una fila */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo del campo de entrada de texto */
+#task-input {
+    padding: 10px; /* Espacio interno */
+    width: 300px; /* Ancho del campo de entrada */
+    border: 1px solid #f9f9f9; /* Borde del campo de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del botón de agregar tarea */
+button {
+    padding: 5px 10px; /* Espacio interno reducido para hacer el botón más pequeño */
+    background-color: #4da05f; /* Color de fondo */
+    color: rgb(255, 255, 255); /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+    margin-left: 10px; /* Espacio a la izquierda */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de la fuente */
+}
+
+/* Estilo del botón de agregar tarea cuando se pasa el mouse */
+button:hover {
+    background-color: #246e35; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilo de la lista de tareas */
+#task-list {
+    list-style-type: none; /* Sin viñetas en la lista */
+    padding: 0; /* Sin espacio interno */
+    max-width: 400px; /* Ancho máximo de la lista */
+    margin: 0 auto; /* Centra la lista en la página */
+}
+
+/* Estilo de cada elemento de la lista de tareas */
+#task-list li {
+    background-color: rgb(179, 245, 180); /* Color de fondo de las tareas */
+    margin-bottom: 10px; /* Espacio inferior entre tareas */
+    padding: 10px; /* Espacio interno */
+    border-radius: 4px; /* Bordes redondeados */
+    display: flex; /* Usa flexbox para alinear los elementos dentro de la tarea */
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+    align-items: center; /* Centra verticalmente el contenido */
+    border: 1px solid #ddd; /* Borde de las tareas */
+}
+
+/* Estilo del botón de eliminar en cada tarea */
+#task-list li button {
+    background-color: #068e1c; /* Color de fondo del botón de eliminar */
+    color: white; /* Color del texto del botón de eliminar */
+    border: none; /* Sin borde */
+    padding: 3px 8px; /* Espacio interno reducido para el botón de eliminar */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+    font-size: 12px; /* Tamaño de la fuente para el botón de eliminar */
+}
+
+/* Estilo del botón de eliminar cuando se pasa el mouse */
+#task-list li button:hover {
+    background-color: #c60518; /* Cambia el color de fondo al pasar el mouse */
+}
+
+
+/* Estilo para las tareas completadas */
+.completed {
+    text-decoration: line-through; /* Aplica un tachado al texto */
+    color: rgba(227, 12, 12, 0.915); /* Cambia el color del texto */
+}
+
+/* Estilo para el checkbox */
+input[type="checkbox"] {
+    margin-right: 10px; /* Espacio a la derecha del checkbox */
+}
+
+
+
+/* Estilo para el botón de obtener tareas */
+#obtain-tasks {
+    margin-bottom: 20px; /* Espacio debajo del botón "Obtener Tareas" */
+    padding: 10px; /* Espacio dentro del botón */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilo para el botón de obtener tareas al pasar el ratón */
+#obtain-tasks:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
